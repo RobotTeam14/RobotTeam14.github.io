@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+
+<html>
+<!-- Include necessary fonts and stylesheet-->
+	<head>
+	<link href ="style.css" type = "text/css" rel = "stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+<!-- So that website can be styled for smaller screened devices-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+	<title>ROBOT TEAM 14</title>	
+	</head>
+	<!-- Navigation banner-->
+	<div class = "header">	
+		<ul>
+		<a href = "253.html"><li>Home</li></a>
+		<a href = "#aboutus"><li>Goal</li></a>
+		<a href= "#mech"><li>Mechanical</li></a>
+		
+		<a href= "#elec"><li>Electrical</li></a>
+		<a href= "#soft"><li>Software</li></a>
+		<a href= "#improv"><li>Improvements</li></a>
+		</ul>
+	</div>		
+		<body>
+		
+			<div class = "jumbotron">	
+				
+				<div class = "overlay">
+					<div class = "title">Robot Team 14</div>
+					<div class = "nameRow">
+						<ul>
+						<li>Priyansh Malik </li>
+						<li>Devika Vishwanath</li>
+						<li> Samia Sama</li>
+						<li>Shafkat Khondker</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<a id='aboutus'></a>
+			<div id = "about">
+				
+				<div class = "aboutUs">
+				<h2>GOAL</h2>
+				<div class = "aboutRow">
+					<div class = "textLeft">
+								<div class="blankrow"></div>
+
+
+					<p>
+						<b>TO CREATE AN AUTONOMOUS ROBOT THAT CAN:</b>
+						<br>
+						<br>
+						  - Traverse the Empire Stronghold by following tape
+						<br>
+						<br>
+						- Cross a chasm to enter the stronghold
+						<br>
+						<br>
+						- Pick up and rescue ewoks located across the premises
+						<br>
+						<br>
+						- Avoid stormtroopers by differentiating infrared signal frequencies
+						<br>
+						<br>
+						- Climb onto a tower 
+						<br>
+						<br>
+						- Cross a narrow suspension bridge with no means of navigation
+						<br>
+						<br>
+						- Return the ewoks to the starting safety position
+					</p>
+					</div>
+					<div class = "challengeImage">
+						<img src ="ewok2.jpg"/>
+					</div>
+					</div>
+					
+					
+					<div class = "aboutRow">
+
+					<div class = "challengeImage2">
+					<img src ="compSurface.png" />
+					</div>
+					
+
+					<div class = "textRight">
+								<div class="blankrow"></div>
+
+						<p>
+						<b>OUR STRATEGY:</b>
+						<br>
+						<br>
+						  - Cross both gaps by dropping aluminum bridges
+						<br>
+						<br>
+						- Avoid the stormtroopers using IR band-pass filtering circuits to detect both IR frequencies
+						<br>
+						<br>
+						- Drop first three ewoks to safety start position using a tilting mechanism at the end of tape
+						<br>
+						<br>
+						- Use a sonar sensor to detect all edges
+						<br>
+						<br>
+						- Use QRD Reflective Sensors to navigate tape 
+						<br>
+						<br>
+						- Use QRD Reflective Sensors to edge-sense and navigate on areas without tape
+						<br>
+						<br>
+						- Return last ewok and Chewbacca to safety using the zipline mechanism
+						</p>
+					</div>
+					</div>
+				</div>
+				
+			</div>
+
+			<!--panel starts -->
+
+
+			<div class = "panel">
+
+				<div class = "column1">
+				<img src ="gear.png">
+				<div class = "imgLabel">
+					<a href="#mech"><h31>Mechanical</h31></a>
+					</div>
+				</div>
+
+
+				<div class = "column2">
+				<img src ="plugLogo.png">
+				<div class = "imgLabel">
+					<a href="#elec"><h32>Electrical </h32></a>	
+					</div>
+				</div>
+
+	
+				<div class = "column3">
+				<img src ="lappyLogo.png">
+				<div class = "imgLabel">
+					<a href="#soft"><h33>Software</h33></a>
+					</div>
+				</div>
+			</div>
+
+			<!--panel ends-->
+<a id='mech'></a>
+<div id = "mechanical">
+<div class = "mechSection">			
+			
+			
+			<div class="blankrow"></div>
+			<h2>Mechanical</h2>
+			<div class="blankrow"></div>
+		<!-- Portfolio Gallery Grid -->
+	<div class="row">
+		<div class="column">
+			<div class="content">
+			  <img src="chasis_design.png" style="width:auto" class = "center">
+			  <h3>Chassis</h3>
+			                <p>
+                <ul>
+                    <li>After designing a CAD model of our chassis using Solidworks and Onshape we laser cut individual parts and assembled using tab and slot joint method.</li>
+                    <li>Our final chassis had
+                        <ul>
+                                <li>Space on the rear and underside for electrical components</li>
+                                <li>Claws mounted on the sides of the chassis</li>
+                                <li>A scissor lift/zipline mechanism mounted on the base</li>
+                        </ul>
+                    </li>
+                </ul>          
+            </p>
+</div>
+		</div>
+
+<div class="column">
+    <div class="content">
+    <img src="drivetrain.png" alt="drive train" style="width:100%">
+      <h3>Drive Train</h3>
+      <p>
+        <ul>
+            <li>The drive train was designed to allow for a compact chassis and simple chassis</li>
+            <li>The robot is powered using two geared Barber-Coleman motors with a gear ratio of 3:1</li>
+            <li>Motor mounts were designed using Onshape and 3D printed. This dampened the vibrations and provided a secure hold on the motors.</li>
+        </ul>
+      </p>
+       
+    </div>
+  </div>
+
+	</div>
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="clawComplete.jpg" alt="claw" style="width:auto;" class="center" >
+      <h3>Claws</h3>
+      <p>
+        <ul>
+            <li>A claw was mounted on both sides of the robot which allowed for decreased uncertainty in retrieving objects.</li>
+            <li>The small size of the claws allows for the robot to fit between the arch way with ease</li>
+            <li>The claw system was designed to cover as wide range of area as possible allowing for consistent results regardless of object placement.</li>
+            <li>The claws arms were curved to maximize contact area with objects</li>
+            <li>A polycarbonate build allowed the claw mechanism to be extremely robust</li>
+        </ul>
+    </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="bridge.png" alt="bridge" style="width:100%">
+      <h3>Bridge System</h3>
+      <p>
+ 		<ul>
+			<li>To cross the gaps the robot used two sheet metal bridges</li>
+			<li>A single servo was used to drop the bridge when an edge is detected</li>
+		</ul>
+      </p>
+       
+    </div>
+  </div>
+  
+  </div>
+  <div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="scissor lift.jpg" alt="scissor lift" style="width:auto" class = "center">
+      <h3>Basket Lift</h3>
+      <p>
+        <ul>
+            <li>To return the collected Ewoks back to friendly territory a basket lifting mechanism was utilized in conjunction with the competition surface zipline</li>
+            <li>A scissor lift mounted onto the base of the robot was used to lift the basket and hook onto a metal zipline</li>
+            <li>A Barber-Coleman motor was used with a lead screw to increase and decrease height of the platform</li>
+        </ul>
+ 
+ 
+      </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="tilting.jpg" alt="Tilt" style="width:auto" class = "center">
+      <h3>Tilt Lift</h3>
+      <p>
+        <ul>
+            <li>To return the first 3 Ewoks back to start the robot included a basket tilting mechanism</li>
+            <li>A servo motor tilts the basket filled with Ewoks when limit switches on the rear of the car are pressed.</li>
+            <li>Allows for certainty in position when carrying out the dropping action</li>
+        </ul>
+ 
+      </p>
+    </div>
+  </div>
+  
+  
+  </div>
+  
+  </div>
+  </div>
+
+<!-- END GRID -->
+
+
+
+			<div class="blankrow"></div>
+
+
+
+			<h2>Electrical</h2>
+
+
+			<div class="blankrow"></div>
+
+
+			<!--
+
+			<div class="textLeft">
+			
+
+			<p>
+						<br>- The IR circuit detects and distinguishes between 10kHz signal and 1kHz signal emitted from an IR beacon.
+						<br>
+						<br>
+						  - The outputs from the circuit is fed into the Analog inputs of the TINAH. 
+						<br>
+						<br>
+						- The OpAmps are easily replaceable since we soldered 8 pin sockets onto the PCB.
+						<br>
+						<br>
+						- Due to the modular design of the PCB, it was very easy to debug the IR circuit.
+						<br>
+						<br>
+						- Using a potentiometer helped us to adjust the gain of the amplifier according to different IR beacons. 
+						<br>
+						<br>
+						- The IR circuit was one of the most reliable components of our robot. 
+						<br>
+						<br>
+					</p>
+
+			<div class="blankrow"></div>
+
+			<div class="blankrow"></div>
+
+			<div class="blankrow"></div>
+			<div class="blankrow"></div>
+
+					<img src ="hbridge schematic.png" style="width:90%;" class="center">
+
+					</div>
+
+					
+			
+			<div class="textRight">
+			
+			<img src ="irSchematic.png" style="width:100%;" class="center" >
+
+			<div class="blankrow"></div>
+			<div class="blankrow"></div>
+
+			<div class="blankrow"></div>
+
+			<div class="blankrow"></div>
+			
+
+			<p>
+						<br>- Although the TINAH has built in H-bridges, it can supply only limited current; therefore, we used external H-bridges.
+						<br>
+						<br>
+						  - We supplied a regulated voltage of 15V to the motors from the LiPo battery.
+						<br>
+						<br>
+						- The MOSFETs we used for the H-bridge were fully replaceable since we used female header pins on the PCB. This saved us a lot of time since we did not have to remake PCBs. 
+						<br>
+						<br>
+						- The well-thought-out compact design helped us to fit the H-bridges under the chassis. 
+						<br>
+						<br>
+						
+					</p>
+					</div>
+
+
+			<div class="blankrow"></div>
+			<div class="blankrow"></div>
+
+
+			<div class="blankrow"></div>-->
+
+
+			<h3>IR Detection</h3>
+			<img src ="irSchematic.png" style="width:80%;" class="center" >	
+			<div class="blankrow"></div>
+			<div class="blankrow"></div>
+
+
+			<div class = "aboutRow">
+			<div class="blankrow"></div>
+
+			<div class="blankrow"></div>
+					
+					<div class = "textRight">
+								<div class="blankrow"></div>
+
+						<p>
+						
+						<br>- The IR circuit detects and distinguishes between 10kHz signal and 1kHz signal emitted from an IR beacon.
+						<br>
+						<br>
+						  - The outputs from the circuit is fed into the Analog inputs of the TINAH. 
+						<br>
+						<br>
+						- The OpAmps are easily replaceable since we soldered 8 pin sockets onto the PCB.
+						<br>
+						<br>
+						- Due to the modular design of the PCB, it was very easy to debug the IR circuit.
+						<br>
+						<br>
+						- Using a potentiometer helped us to adjust the gain of the amplifier according to different IR beacons. 
+						<br>
+						<br>
+						- The IR circuit was one of the most reliable components of our robot. 
+						<br>
+						<br>
+						</p>
+					</div>
+
+					<div class = "challengeImage">
+						<img src ="IR_Photo.jpg" style="width:70%;" class="center"/>
+					</div>
+					</div>
+					<div class="blankrow"></div>
+					<h3>H-Bridge</h3>
+					<img src ="hbridge schematic.png" style="width:70%;" class="center">
+					<div class = "aboutRow">
+
+					<div class = "challengeImage2">
+					<img src ="hbridge_photo.jpg" style="width:60%;" class = "center"/>
+					</div>
+					
+					<div class = "textRight">
+								<div class="blankrow"></div>
+								<div class="blankrow"></div>
+								<div class="blankrow"></div>
+
+						<p>
+						<br>- Although the TINAH has built in H-bridges, it can supply only limited current; therefore, we used external H-bridges.
+						<br>
+						<br>
+						  - We supplied a regulated voltage of 15V to the motors from the LiPo battery.
+						<br>
+						<br>
+						- The MOSFETs we used for the H-bridge were fully replaceable since we used female header pins on the PCB. This saved us a lot of time since we did not have to remake PCBs. 
+						<br>
+						<br>
+						- The well-thought-out compact design helped us to fit the H-bridges in a small space under the chassis. 
+						<br>
+						<br>
+						
+					</p>
+					</div>
+
+					</div>
+				</div>
+				
+			</div>
+
+
+			<div class="row">
+
+			<div class = "aboutRow">
+					<div class = "textLeft">
+								<div class="blankrow"></div>
+
+<div class="blankrow"></div>
+
+
+					
+						<h3>Object Sensor</h3>
+<p>
+						<br>- We used two VL53L0X Time-of-Flight distance sensors to detect the Ewoks. 
+						<br>
+						<br>
+						  - These lidar sensors gave us very accurate distance readings compared to IR sensors. 
+						<br>
+						<br>
+						- We kept our left sensor on shutdown till we reached the second edge, and we turned off our right sensor after we detected IR. This allowed us to avoid the robot detecting the archway and the stormtroopers. 
+						<br>
+						<br>
+						
+					</p>
+	
+					</div>
+					<div class = "challengeImage">
+						<img src ="DistanceSensor.jpg" style="width:70%" class = "center"/>
+					</div>
+					</div>
+					
+<!--				
+  <div class="column1">
+    <div class="content">
+      <img src="DistanceSensor.jpg" alt="Mountains" style="width:100%">
+      <h3>Object Detection</h3>
+      <p>
+						<br>- We used two VL53L0X Time-of-Flight distance sensors to detect the Ewoks. 
+						<br>
+						<br>
+						  - These lidar sensors gave us very accurate distance readings compared to IR sensors. 
+						<br>
+						<br>
+						- We kept our left sensor on shutdown till we reached the second edge, and we turned off our right sensor after we detected IR. This allowed us to avoid the robot detecting the archway and the stormtroopers. 
+						<br>
+						<br>
+						
+					</p>
+					
+    </div>
+  </div>
+  <div class="column2">
+    <div class="content">
+    <img src="hbridge_photo.jpg" alt="Lights" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    </div>
+  </div>
+  
+
+  <div class="column3">
+    <div class="content">
+    <img src="IR_photo.jpg" alt="Lights" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    </div>
+  </div>-->
+  
+ <!-- </div>
+
+
+
+			<div class = "panel-mech">
+				<div class = "column1">
+				<img src ="Distance_Sensor.png" style="width:80%;" class="center">
+				
+				</div>
+
+
+				<div class = "column2">
+				<img src ="hbridge_photo.jpg" style="width:80%;" class="center">
+			
+				</div>
+				
+				<div class = "column3">
+				<img src ="IR_Photo.jpg" style="width:80%;" class="center">
+				</div>
+		
+
+
+			</div>-->
+
+
+	
+			<div class="softSection">
+			<h2>Software</h2>
+	<div class="codeDiagram">
+
+	 <h3>Microcontroller</h3>
+			<img src ="tinah.jpg" style="width:auto;" class="center">
+
+			<p class="softCenter">We used TINAH microcontroller to control our robot, which is similar to Arduino but customized for the ENPH 253 lab.</p>
+			</div>
+
+			
+    <div class="codeDiagram">
+
+    <h3 class>State Machine Flow Chart</h3>
+
+			<img src ="codeDiagram.jpg"  style="width:70%;height:40%;" class="center">
+<br></br>
+			<p class="softCenter">We used an event based state machine for the decision making process of our robot. The diagram above highlights the logic used during each state and the events that triggered a change in state.</p>
+
+			</div>
+</div>
+
+<div class="improvements">
+	<h2>Improvements</h2>
+	
+	<div class="row">
+  		<div class="column">
+    		<h3>Technical</h3>
+    		<p>					
+    					<br>- We could have spent more time on the overall wiring design at the beginning.
+						<br>
+						<br>
+						  - We should have soldered the tip of all header pins going into the TINAH, in order to make them tight connections. 
+						<br>
+						<br>
+						- We could have taken into consideration the weight distribution of the chassis in order to prevent it from tilting back while going up the second bridge. 
+						<br>
+						<br>
+						- We could have made mechanical components, such as the servo motors, easily replaceable.   
+						<br>
+						<br>
+						- Having a second IR circuit soldered as a backup. 
+						<br>
+						<br>
+						</p>
+  		</div>
+  		<div class="column">
+    		<h3>Logistics</h3>
+    		<p>					
+    					<br>- All members should have had learnt basic aspects of software, mechanical, and electrical components; this would have saved time because of less dependencies on each other while working on modular components. 
+						<br>
+						<br>
+						  - Accounting for the time for debugging while planning project timelines. 
+						<br>
+						<br>
+						- Better time management in terms of not staying stuck on one component for a long time; instead moving on to something else and asking for help when available. 
+						<br>
+						<br>
+						</p>
+  	</div>
+</div>
+
+
+
+
+</div>
+
+
+			
+
+
+
+
+
+
+			
+			
+			
+		</body>
+			
+			
+</html>
